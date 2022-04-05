@@ -1,0 +1,46 @@
+.NavOption {
+    display: flex;
+    align-items: center;
+    margin-left: -1rem;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    color: rgb(231, 233, 234);
+    width: fit-content;
+    transition: 0.3s;
+}
+.NavOption:hover {
+    background-color: rgb(24, 24, 24);
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.NavOption__log {
+    margin-left: -1rem;
+}
+.NavOption__log_icon {
+    width: 37px;
+    height: 33px;
+    margin-top: 0.1rem;
+    color: rgb(214, 217, 219);
+    padding: 10px;
+    transition: 0.3s;
+}
+.NavOption__icon {
+    height: 30px;
+    width: 25px;
+    padding-right: 1rem;
+}
+.NavOption__name {
+    font-size: 20px;
+    font-weight: 300;
+    /* font-weight: 600; while selected */
+}
+@media (max-width: 1290px) {
+    .NavOption__name {
+        display: none;
+    }
+}
+
+@media (max-height: 615px) {
+    .NavOption__hide {
+        display: none;
+    }
+}

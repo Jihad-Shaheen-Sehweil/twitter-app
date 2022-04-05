@@ -1,0 +1,59 @@
+.Nav {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+}
+.Nav__log {
+    margin-left: -1rem;
+}
+.Nav__log_icon {
+    width: 37px;
+    height: 33px;
+    margin-top: 0.1rem;
+    color: rgb(214, 217, 219);
+    padding: 10px;
+    transition: 0.3s;
+}
+.Nav__log_icon:hover {
+    background-color: rgb(03, 16, 24);
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.Nav__Tweet_Button {
+    width: 225px;
+    height: 50px;
+    background-color: rgb(29, 155, 244);
+    border-radius: 20rem;
+    color: white;
+    margin-top: 1rem;
+    margin-left: -1rem;
+    font-weight: 600;
+}
+.Nav__Tweet_Button:hover {
+    background-color: rgb(26, 140, 216);
+    cursor: pointer;
+}
+@media (max-width: 1290px) {
+    .Nav__Tweet_Button {
+        width: 50px;
+        height: 50px;
+        margin-right: 1.1rem;
+    }
+    .Nav__Tweet_Button__text {
+        display: none;
+    }
+    .Nav {
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        align-items: flex-end;
+    }
+    .Nav__log_icon {
+        margin-left: -4.4rem;
+    }
+}
+@media (min-width: 1290px) {
+    .Nav__Tweet_Button__featherButton {
+        display: none;
+    }
+}

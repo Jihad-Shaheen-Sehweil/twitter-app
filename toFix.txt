@@ -1,0 +1,5 @@
+create modal for logout -- nav
+reclick on the button of the sign in/up after 1 fail -- signUp & signIn modals
+hide vertically in nav -- nav
+fix hover on nav -- nav
+to complete search in aside(change the icon color in focus) -- aside

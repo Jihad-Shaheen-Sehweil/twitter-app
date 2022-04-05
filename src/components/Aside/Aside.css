@@ -1,0 +1,35 @@
+.aside {
+    margin-left: 2rem;
+}
+.aside__search {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 20rem;
+    background-color: rgb(32, 35, 39);
+    width: 350px;
+}
+.aside__search:focus-within {
+    outline: 1px solid rgb(26, 140, 216);
+}
+.aside__search:focus:first-child {
+    color: rgb(26, 140, 216);
+}
+.aside__search__icon {
+    width: 20px;
+    height: 20px;
+    color: gray;
+    padding-left: 0.9rem;
+}
+.aside__search__input {
+    width: 305px;
+    height: 42px;
+    border-top-right-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+    background-color: rgb(32, 35, 39);
+    color: white;
+    padding-left: 1rem;
+}
+.aside__search__input:focus {
+    outline: none;
+}

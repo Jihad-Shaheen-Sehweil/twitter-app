@@ -1,0 +1,7 @@
+.App {
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    padding-left: 5rem;
+    font-family: Helvetica, sans-serif;
+}

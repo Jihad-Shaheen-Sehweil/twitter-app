@@ -1,0 +1,102 @@
+.modal_sign_in_text {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+.modal_SignInopenButton {
+    height: 38px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.25rem;
+    background-color: black;
+    color: #d3e4f0;
+    border: 0.5px solid #1d9cf098;
+}
+
+.modal_SignInopenButton:hover {
+    background-color: rgb(3 16 24);
+    cursor: pointer;
+}
+
+.modal {
+    color: #d9d9d9;
+}
+.modal_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+.modal_exit {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.modal_exit:hover {
+    background-color: rgb(25 26 26);
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.modal_icon {
+    width: 30px;
+    height: 35px;
+    color: #d9d9d9;
+}
+
+.modal_text {
+    margin: 2.5rem 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.modal_input {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal_input_area {
+    width: 490px;
+    background-color: black;
+    padding: 1.25rem 0.75rem;
+    border: 1px solid #2d2f32;
+    border-radius: 7.5px;
+    color: white;
+    margin-top: 2rem;
+}
+.modal_input_area:focus {
+    border: 2px solid#1d9bf0;
+    outline: none;
+}
+.modal_signInBTN {
+    margin-top: 2rem;
+    height: 42px;
+    border-radius: 5rem;
+    background-color: #1d9bf0;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
+.modal_signInBTN:hover {
+    background-color: rgb(26 140 216);
+    cursor: pointer;
+}
+
+.modal_signInBTN_X {
+    margin-top: 2rem;
+    height: 42px;
+    border-radius: 5rem;
+    background-color: #eff3f4;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.modal_signInBTN_X:hover {
+    background-color: #d6d5d5;
+    cursor: pointer;
+}

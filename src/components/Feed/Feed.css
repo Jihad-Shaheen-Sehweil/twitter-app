@@ -1,0 +1,10 @@
+.feed {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    height: 100vh;
+    overflow: auto;
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&display=swap");
+
+.signUp {
+    display: flex;
+    min-height: 100vh;
+    color: rgb(255 255 255);
+    box-sizing: border-box;
+
+}
+.signUp::-webkit-scrollbar{
+    display: none;
+}
+.signUp_background {
+    height: 100vh;
+    width: 55vw;
+    background-image: url("../../../public/signin_img.png");
+    background-size: auto 100%;
+    object-fit: contain;
+    min-height: 45vh;
+    margin-left: -17.8rem;
+}
+
+.signUp_birdIcon {
+    height: 280px;
+    width: 345px;
+    margin: 14rem;
+    position: relative;
+}
+
+.signUp_detailes {
+    margin: 2rem 0 0 2rem;
+    color: #d9d9d9;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    min-width: 45vw;
+}
+
+.signUp_icon {
+    height: 45px;
+    width: 57px;
+}
+
+.signUp_text_1 {
+    margin: 1.25rem 0;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1;
+    padding: 4rem 0;
+}
+
+.signUp_text_2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 2.25rem; /* 36px */
+    padding-bottom: 2rem;
+}
